@@ -66,7 +66,7 @@
 					<div class="panel panel-default">
 						<div class="panel-body">
 							<div class="category-preview" style="
-								<!-- IF category.backgroundImage -->background-image: url({category.backgroundImage});<!-- ENDIF category.backgroundImage -->
+								<!-- IF category.backgroundImage -->background: url({category.backgroundImage}) center center no-repeat;<!-- ENDIF category.backgroundImage -->
 								<!-- IF category.bgColor -->background-color: {category.bgColor};<!-- ENDIF category.bgColor -->
 								<!-- IF category.imageClass -->background-size: {category.imageClass};<!-- ENDIF category.imageClass -->
 								color: {category.color};
